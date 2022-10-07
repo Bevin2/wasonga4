@@ -1,0 +1,27 @@
+h1{background-image: url(../photos/Mercedesbenz.jpg.jpg);
+ background-color: darkslategrey;
+ color: azure;
+ background-size: cover;
+ padding: 0.5em 1.5em;
+}
+
+button{
+  display: inline-block;
+  cursor: pointer;
+  line-height: 1;
+  background: none;
+  border: 0;
+  
+}
+
+button{
+  color: #0000ff;
+  outline: 2px solid #0000ff;
+  border: 2px;
+  outline-offset: -2px;
+  transition: ease-out;
+}
+button:hover,
+button:focus{
+  outline-offset: 2px;
+}
